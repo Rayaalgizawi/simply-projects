@@ -63,7 +63,6 @@ class _CurrencyState extends State<Currency> {
                    
                     });
               } else {
-                // Circular Progress Indicator ()------------------------------------------
                 return const Center(child: Text('Loading..' ,style: TextStyle(fontSize: 25 , color: Colors.white),) );
               }
             });
