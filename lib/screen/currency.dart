@@ -63,6 +63,7 @@ class _CurrencyState extends State<Currency> {
                    
                     });
               } else {
+                // if waiting show loading 
                 return const Center(child: Text('Loading..' ,style: TextStyle(fontSize: 25 , color: Colors.white),) );
               }
             });
